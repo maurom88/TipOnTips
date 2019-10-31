@@ -4,6 +4,10 @@
     align-items: center;
 }
 
-.flex-element {
+.flex-element-row1 {
+    flex: 0 1 auto;
+}
+
+.flex-element-row2 {
     flex: 0 1 auto;
 }
