@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-element {
+    flex: 0 1 auto;
+}

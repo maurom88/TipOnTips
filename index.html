@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-element">
+            <label for="amount">How much was your bill?</label><br>
+            $ <input id="amount" name="amount" type="number" min="0" value="0.00" required>
+        </div>
+        <div class="flex-element">
+            <label for="service">How was your service?</label><br>
+            <select id="service">
+                <option value="8">Poor - 8%</option>
+                <option value="12">Under average - 12%</option>
+                <option value="15">Average - 15%</option>
+                <option value="18">Above average - 18%</option>
+                <option value="20">Excellent - 20%</option>
+            </select>
+        </div>
+        <div class="flex-element">
+            <label for="people">How many people are at your table?</label><br>
+            <input id="people" name="people" type="number" min="1" value="1" required>
+        </div>
+        <div class="flex-element">
+            <button id="calculate" onclick="calcTip()">calculate</button>
+        </div>
+
+        <p class="flex-element" id="tip"></p>
+    </div>
+</body>
+
+</html>
