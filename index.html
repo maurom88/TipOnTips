@@ -12,11 +12,11 @@
 
 <body>
     <div class="flex-container">
-        <label class="flex-element-row1" for="amount">How much was your bill?</label><br>
-        $ <input class="flex-element-row2" id="amount" name="amount" type="number" min="0" value="0.00" required>
+        <label for="amount">How much was your bill?</label><br>
+        $ <input id="amount" name="amount" type="number" min="0" value="0.00" required>
 
-        <label class="flex-element-row1" for="service">How was your service?</label><br>
-        <select class="flex-element-row2" id="service">
+        <label for="service">How was your service?</label><br>
+        <select id="service">
             <option value="8">Poor - 8%</option>
             <option value="12">Under average - 12%</option>
             <option value="15">Average - 15%</option>
@@ -24,13 +24,13 @@
             <option value="20">Excellent - 20%</option>
         </select>
 
-        <label class="flex-element-row1" for="people">How many people are at your table?</label><br>
-        <input class="flex-element-row2" id="people" name="people" type="number" min="1" value="1" required>
+        <label for="people">How many people are at your table?</label><br>
+        <input id="people" name="people" type="number" min="1" value="1" required>
 
-        <button class="flex-element-row1" id="calculate" onclick="calcTip()">calculate</button>
+        <button id="calculate" onclick="calcTip()">calculate</button>
 
 
-        <p class="flex-element-row1" id="tip"></p>
+        <p id="tip"></p>
     </div>
 </body>
 
