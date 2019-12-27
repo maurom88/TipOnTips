@@ -1,0 +1,30 @@
+.container {
+    /*background-color: blue;*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.subcontainer {
+    /* background-color: green; */
+    width: 50%;
+    position: relative;
+    transform: translate(50%);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    border-radius: 4%;
+}
+
+.element {
+    text-align: center;
+}
+
+.row1 {
+    margin-top: 0px;
+}
+
+.title {
+    
+}
