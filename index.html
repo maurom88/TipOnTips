@@ -12,29 +12,32 @@
 
 <body>
     <div class="container">
-                <h1>tip calculator</h1>
-            <form class="tip-form">
-                <p class="row1" for="amount">How much was your bill?</p><br>
-                $ <input id="amount" name="amount" type="number" min="0" value="0.00" required>
-                <br><br>
+        <h1>tip calculator</h1>
+        <form class="tip-form">
+            <p class="row1" for="amount">How much was your bill?</p><br>
+            $ <input id="amount" name="amount" type="number" min="0" value="0.00" required>
+            <br><br>
 
-                <label for="service">How was your service?</label><br>
-                <select id="service">
-                    <option value="8">Poor - 8%</option>
-                    <option value="12">Under average - 12%</option>
-                    <option value="15">Average - 15%</option>
-                    <option value="18">Above average - 18%</option>
-                    <option value="20">Excellent - 20%</option>
-                </select>
-                <br><br>
+            <label for="service">How was your service?</label><br>
+            <select id="service">
+                <option value="8">Poor - 8%</option>
+                <option value="12">Under average - 12%</option>
+                <option value="15">Average - 15%</option>
+                <option value="18">Above average - 18%</option>
+                <option value="20">Excellent - 20%</option>
+            </select>
+            <br><br>
 
-                <label for="people">How many people are at your table?</label><br>
-                <input id="people" name="people" type="number" min="1" value="1" required>
-                <br><br>
+            <label for="people">How many people are at your table?</label><br>
+            <input id="people" name="people" type="number" min="1" value="1" required>
+            <br><br>
 
-                <button id="calculate" onclick="calcTip()">calculate</button>
-            </form>
-        </div>
+            <p id="tip"></p>
+            <br><br>
+
+            <button id="calculate" onclick="calcTip()">calculate</button>
+        </form>
+    </div>
     </div>
 </body>
 
